@@ -38,7 +38,7 @@ type SupplierPartNum struct {
 
 type Quantity struct {
 	XMLName       xml.Name `xml:"Quantity"`
-	Qty           int      `xml:"Qty"`
+	Qty           float64  `xml:"Qty"`
 	UnitOfMeasure int      `xml:"UnitOfMeasure"`
 }
 
