@@ -3,7 +3,7 @@ package desy
 import "encoding/xml"
 
 type OrderHeader struct {
-	XMLName                xml.Name       `xml:"PurchaseOrder"`
+	XMLName                xml.Name       `xml:"OrderHeader"`
 	POIssuedDate           string         `xml:"POIssuedDate"`
 	OrderReference         OrderReference `xml:"OrderReference"`
 	OrderParty             OrderParty     `xml:"OrderParty"`
