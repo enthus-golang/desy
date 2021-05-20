@@ -30,7 +30,7 @@ type BuyerReference struct {
 }
 
 type ListOfReferenceCoded struct {
-	XMLName        xml.Name         `xml:"OrderReference"`
+	XMLName        xml.Name         `xml:"ListOfReferenceCoded"`
 	ReferenceCoded []ReferenceCoded `xml:"ReferenceCoded"`
 }
 
