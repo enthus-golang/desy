@@ -25,7 +25,7 @@ type BuyerReferenceNumber struct {
 }
 
 type BuyerReference struct {
-	XMLName         xml.Name `xml:"BuyerRefNum"`
+	XMLName         xml.Name `xml:"Reference"`
 	ReferenceNumber string   `xml:"RefNum"`
 }
 
